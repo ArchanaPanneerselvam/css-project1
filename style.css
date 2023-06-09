@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+}
+
+.first-item{
+    width: 99%;
+    height: auto;
+    background-color: #FFFFFF ;
+    background: 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 30px #7B7B7B29;
+    opacity: 1;
+    margin: 10px;
+}
+a{
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+.box{
+    width: 100%;
+    height: auto;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F7F7F7;
+    justify-content: center;
+
+   }
+.card{
+    width: 302px;
+    height: 220px;
+    align-items: center;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    margin: 30px;
+   
+}
+input[type=checkbox]:checked{
+    text-decoration: line-through;
+    
+  }
+h2{
+    font-size:  normal medium 20px/24px Inter;
+    color: #00A5EC;
+    padding: 5px;
+}
+/* popup */
+#popup-box{
+    border: 1px solid #EDEDED ;
+    width: 400px;
+    height: 200px;
+    box-shadow: 2px 2px 5px gray;
+    border-radius: 10px;
+   position: absolute;
+   top: 184px;
+   left: 448px;
+   opacity: 1;
+   background-color: white;
+
+}
+.item_input input{
+    width: 95%;
+    height: 30px;
+    margin-top: 20px;
+}
+
+.content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding:10px 0 10px 15px;
+}
+.content i{
+    padding-right: 50px;
+}
+.item_button{
+    width: 140px;
+    height: 35px;
+    background-color: #00A5EC;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 5px;
+}
+.item_button p{
+    color: white;
+    font-size: 20px;
+    padding: 6px 20px;
+   
+}
+ .item_opa{
+    width: 100%;
+    height: 650px;
+    background-color:#000000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 10%;
+    filter: blur(10px);
+ }
+ .item_select{
+    display: flex;
+    justify-content: center;
+    margin-left:10px;
+ }
+ .paris{
+    background-color: #F7F7F7;
+ }
+ #paris{
+    width: 30%;
+    height: 500px;
+    margin-left:500px;
+    padding: 20px;
+   } 
+ .box1{
+    display: flex;
+    justify-content: space-between;
+ }
+ /* #{
+    text-decoration: line-through;
+    
+ } */
+ input[type=checkbox]:checked + label.item_paris_one{
+    text-decoration: line-through;
+  }
+  input[type=checkbox]:checked + label.item_supermarket{
+    text-decoration: line-through;
+  }
+  input[type=checkbox]:checked + label.item_movie{
+    text-decoration: line-through;
+  }
+  input[type=checkbox]:checked + label.item_morning{
+    text-decoration: line-through;
+  }
+  input[type=checkbox]:checked + label.item_day{
+    text-decoration: line-through;
+  }
+  
+  
+  
+  
